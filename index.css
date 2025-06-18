@@ -1,0 +1,9 @@
+.navbar {
+    width: 100px;
+    height: 200px;
+    background-color: blue;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
