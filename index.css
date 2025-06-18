@@ -1,9 +1,38 @@
-.navbar {
-    width: 100px;
-    height: 200px;
-    background-color: blue;
-}
-body {
+body{
     margin: 0;
     padding: 0;
+}
+.navbar{
+    height: 200px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+}
+.rond{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+.rond1{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: blue;
+}
+.navbar2{
+    height: 200px;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+.rond2{
+    height: 150px;
+    width: 150px;
+    border-radius: 10%;
+    background-color: black;
 }
