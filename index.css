@@ -35,4 +35,45 @@ body{
     width: 150px;
     border-radius: 10%;
     background-color: black;
+
+}
+
+.im {
+    height: 250px;
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+     justify-content: space-between;
+    align-items: center;
+ }
+ 
+.droite {
+    height: 190px;
+    width: 277px;
+    background-color: white;
+    border-radius: 10%;
+    display: flex ;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+ }
+ .gauche {
+    height: 190px;
+    width: 277px;
+    background-color: white;
+    border-radius: 10%;
+    display: flex ;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+ }
+.droite img{
+    height: 50px;
+    width: 100px;
+}
+
+.gauche img{
+    height: 50px;
+    width: 100px;
 }
